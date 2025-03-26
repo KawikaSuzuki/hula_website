@@ -10,14 +10,14 @@ nav {
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 30px 150px;
 }
 nav ul {
   display: flex;
   justify-content: center;
-  gap: 20em;
-  margin-right: 25em;
+  gap: 10em;
+  /* margin-right: 25em; */
   list-style: none;
 }
