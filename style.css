@@ -1,23 +1,35 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+body {
+  padding-top: 80px; /* or 100px if your nav is taller */
 }
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #ffd1dc;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 30px 150px;
+  z-index: 1000;
 }
-nav ul {
+
+.nav-left .halau-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+}
+
+.nav-tabs {
   display: flex;
-  justify-content: center;
-  gap: 10em;
-  /* margin-right: 25em; */
+  gap: 2rem;
   list-style: none;
+  padding: 25px 20px;
+}
+
+.nav-tabs li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
 }
