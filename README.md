@@ -29,7 +29,7 @@ git clone https://github.com/yourusername/hula-website.git
 cd hula-website
 open index.html
 
-Or visit the live site: [insert live link if you have one]
+Or visit the live site: [insert link once up]
 🤙 Mahalo
 
 Big thanks to Ms.Wong for the inspiration and for sharing her love of Hula with the community. This project is a small way of giving back and supporting cultural education.
