@@ -1,3 +1,5 @@
+🌺 Hula Class Website
+
 This website was created to help promote and share information about Ms.Wongs’s Hula classes. It’s designed to make it easier for new and returning students to learn about class schedules, styles taught, and how to get involved in the beautiful tradition of Hula.
 🧭 About the Project
 
