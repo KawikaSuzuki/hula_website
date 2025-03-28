@@ -6,70 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hula Classes</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit">
+    <style>
+        body{
+            font-family:"Outfit", sans-serif;
+        }
+    </style>
+    
 </head>
 
 <body>
-    <header>
-        <nav class="navbar section-content">
-            <a href="index.html" class="nav-logo">
-                <h2 class="logo-text">Hula O Puka'ikapuaokalani</h2>
-            </a>
-            <ul class="nav-tabs">
-                <li class="nav-item">
-                    <a href="classes.html" class="nav-link">Classes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="halau.html" class="nav-link">Halau Info</a>
-                </li>
-                <li class="nav-item">
-                    <a href="gallery.html" class="nav-link">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Sign up</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="hero">
-        <div class="hero-text">
-            <h1>Aloha</h1>
-            <p>Welcome to the art of traditional Hawaiian hula</p>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill=black><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="halau.html">About</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Sign Up</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Halau Hula O Puka'ikapuaokalani</a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="halau.html">About</a></li>
+            <li class="hideOnMobile"><a href="classes.html">Classes</a></li>
+            <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Sign Up</a></li>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill=black><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <section class="classes-section">
+        <div class="classes-wrapper">
+            <div class="classes-container">
+                <a class="project" href="">
+                    <figure>
+                        <img src="images/yume_fav.jpg" alt="beginner classes" title="beginner classes">
+                        <figcaption>
+                            <div>
+                                <h3>Beginner Classes</h3>
+                                <p class="cta">Learn More</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project" href="">
+                    <figure>
+                        <img src="images/yume_sleep.jpg" alt="advanced classes" title="advanced classes">
+                        <figcaption>
+                            <div>
+                                <h3>Advanced Classes</h3>
+                                <p class="cta">Learn More</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project" href="">
+                    <figure>
+                        <img src="images/yume_pup.jpg" alt="senior classes" title="senior classes">
+                        <figcaption>
+                            <div>
+                                <h3>Senior Classes</h3>
+                                <p class="cta">Learn More</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
         </div>
-    </div>
-    <section id="about" class="about">
-        <h2>Open Enrollment</h2>
-        <p>Learn the art of traditional Hawaiian hula.</p>
     </section>
 
-    <section id="classes">
-        <h2>Class Schedule</h2>
-        <div id="class-list">
-            <!-- JavaScript will inject class info here -->
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Hula with Aloha. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <main>
+        <h3>This is the Home Page</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus laboriosam laborum aut deserunt, voluptatum amet odio sunt corporis quam officiis minima ex doloribus, delectus non nam nisi nesciunt fuga reprehenderit?</p>
+    </main>
+    
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -11,49 +11,31 @@
 
 <body>
     <nav>
-        <div class="nav-left">
-            <a href="index.html" class="halau-name">Halau Hula O Puka'ikapuaokalani</a>
-        </div>
-        <ul class="nav-tabs">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill=black><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="halau.html">About</a></li>
             <li><a href="classes.html">Classes</a></li>
-            <li><a href="halau.html">Halau Info</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Sign Up</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Halau Hula O Puka'ikapuaokalani</a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="halau.html">About</a></li>
+            <li class="hideOnMobile"><a href="classes.html">Classes</a></li>
+            <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Sign Up</a></li>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill=black><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
-    <section id="about">
-        <h2>welcome to gallery</h2>
-        <p>Learn the art of traditional Hawaiian hula.</p>
-    </section>
 
-    <section id="classes">
-        <h2>Class Schedule</h2>
-        <div id="class-list">
-            <!-- JavaScript will inject class info here -->
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Hula with Aloha. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <main>
+        <h3>This is the Gallery Page</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus laboriosam laborum aut deserunt, voluptatum amet odio sunt corporis quam officiis minima ex doloribus, delectus non nam nisi nesciunt fuga reprehenderit?</p>
+    </main>
+    
+    <script src="main.js"></script>
 </body>
 
 </html>
